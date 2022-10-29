@@ -2,9 +2,17 @@
 
 int main()
 {
-	char name[10];
-	printf("What's your name?");
-	scanf("%c", &name);
-	printf("fuck you, %c", name);
+	int x;
+	printf("Cuantos numeros usas?");
+	scanf("%i", &x);
+	
+	for(int i=0; x>i; i++)
+	{
+		for(int k=i; k>i; k--)
+		{
+			printf(" %i", k);
+		}
+		printf("\n");
+	}
 	return 0;
 }
